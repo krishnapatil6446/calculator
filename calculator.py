@@ -4,7 +4,7 @@ def add(a,b):                    #adding the two variables
     return a+b
 
 def subtract(a, b):               #subtracting the given variables
-    return a - b
+    return b - a
 
 def multiply(a, b):
     return a * b
