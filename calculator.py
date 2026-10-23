@@ -15,7 +15,7 @@ def subtract(a, b):               #subtracting the given variables
 
 
 def multiply(a, b):
-    return a * b
+    return a * b + b
 
 
 def divide(a, b):
