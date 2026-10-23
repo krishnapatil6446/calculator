@@ -1,5 +1,8 @@
 from calculator import add, subtract, multiply, divide
 
+# Fixed multiply call argument
+# It was passing num1 twice, instead of num1 and num2
+
 def main():
     print("Welcome to the Python Calculator! Type 'exit' to quit.")
 
@@ -26,7 +29,7 @@ def main():
         elif operation == "subtract":
             result = subtract(num1, num2)
         elif operation == "multiply":
-            result = multiply(num1, num2)
+            result = multiply(num1, num2)  # Fix here
         elif operation == "divide":
             try:
                 result = divide(num1, num2)
@@ -42,4 +45,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

@@ -7,6 +7,9 @@ def add(a,b):                    #adding the two variables
 #def subtract(a, b):               #subtracting the given variables
 #    return b - a
 
+
+# The subtract function was incorrectly implemented as b - a,
+# but by convention subtract(a, b) should return a - b.
 def subtract(a, b):               #subtracting the given variables
     return a - b
 
